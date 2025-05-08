@@ -1,0 +1,127 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+  padding: 20px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  padding-top: 400px;
+  padding-bottom: 1000px;
+  }
+  .layout{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(61, 58, 58);
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    position: fixed;
+    border:2px solid lightgray;
+    
+  }
+  .container {
+  max-width: 500px;
+  margin: 0 auto;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  }
+  
+  h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+  }
+  u{
+     text-decoration-color:#5C89D6;
+  }
+  
+  textarea {
+  width: 400px;
+  height: 120px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  outline: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  }
+  
+  .button-group {
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr ;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  }
+  
+  .msg-btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #4a90e2, #e94e77);
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s;
+  }
+  
+  .msg-btn:hover {
+  background: linear-gradient(90deg, #e94e77, #4a90e2);
+  }
+  
+  .add-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  }
+  
+  #custom-input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  width: 350px;
+  outline: none;
+  }
+  
+  #add-btn {
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+  }
+  #add-btn:active{
+    opacity: 0.4;
+  }
+  
+  .msg-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  padding-right: 6px;
+  padding-left: 0;
+  }
+  
+  .delete-btn {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  }
